@@ -1,30 +1,525 @@
 {
-  "dogs": [{
+  "dogs": [
+    {
       "dogName": "Luca",
       "dogBreed": "German Shepherd",
-      "id": 1
+      "id": "1"
     },
     {
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
-      "id": 2
+      "id": "2"
     }
   ],
-  "cats": [{
+  "cats": [
+    {
       "catName": "Stanley",
       "catBreed": "Tabby",
-      "id": 1
+      "id": "1"
     },
     {
       "catName": "Gunnar",
       "catBreed": "American Shorthair",
-      "id": 2
+      "id": "2"
     }
   ],
-  "users": [],
-  "robots": [{
-    "robotName": "C8-09S100K",
-    "robotType": "Human Assistant",
-    "id": 9000
-  }]
+  "users": [
+    {
+      "id": "883a",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "1c96",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "47ba",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2351",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "0ba3",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "4697",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "609e",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "441b",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "0dae",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "8f06",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "9027",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "9832",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "d42c",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "1ffa",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "4cd7",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "8a0e",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "5bd1",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "0b15",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "b6a4",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "1aaf",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "c1a5",
+      "name": "",
+      "email": "john@example.com"
+    },
+    {
+      "id": "da5d",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "ddef",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2cfe",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "7352",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "5d07",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "8afd",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "6655",
+      "name": "Lawren",
+      "email": "john@example.com"
+    },
+    {
+      "id": "da1e",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "8287",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "d45d",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "01be",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "b944",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "aaaa",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "03e2",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "b8c3",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "393d",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "23ee",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "debb",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "0c7a",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "54aa",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "a5bf",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "ebd6",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "43a2",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2d0f",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "db4f",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "6a6b",
+      "name": "Lawrence",
+      "email": "john@example.com"
+    },
+    {
+      "id": "4c2e",
+      "name": "Lawrence Wambugu",
+      "email": "john@example.com"
+    },
+    {
+      "id": "dec6",
+      "name": "Lawrence Wambugu",
+      "email": "john@example.com"
+    },
+    {
+      "id": "ae4c",
+      "name": "Lawrence Wambugu",
+      "email": "john@example.com"
+    },
+    {
+      "id": "eb7d",
+      "name": "Lawrence Wambugu",
+      "email": "john@example.com"
+    },
+    {
+      "id": "a3f7",
+      "name": "Lawrence Wambugu",
+      "email": "john@example.com"
+    },
+    {
+      "id": "ec98",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "5009",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "d161",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "de25",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "42d6",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "7291",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "93bd",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence."
+    },
+    {
+      "id": "c88e",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu"
+    },
+    {
+      "id": "678e",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu"
+    },
+    {
+      "id": "8b6a",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "7959",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "3f30",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "c3da",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "8728",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "9e1c",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "d034",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "cf62",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "df46",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "5a55",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@"
+    },
+    {
+      "id": "f840",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "1b8f",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "b517",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "098d",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "13b5",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "53e0",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "cce9",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "2d01",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "f2a1",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "c5ef",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student"
+    },
+    {
+      "id": "df36",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "8663",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "7a86",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "b77d",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "ae6b",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "7c08",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "27ce",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "029a",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "a9b7",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "b2ae",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "568a",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "c04b",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "7b4d",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "9798",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "2be4",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "2a3d",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    },
+    {
+      "id": "8083",
+      "name": "Lawrence Wambugu",
+      "email": "lawrence.wambugu@student.moringaschool.com"
+    }
+  ],
+  "robots": [
+    {
+      "robotName": "C8-09S100K",
+      "robotType": "Human Assistant",
+      "id": "9000"
+    }
+  ]
 }
